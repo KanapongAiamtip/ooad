@@ -1,16 +1,18 @@
 public class Order extends Menu{
 
+    protected int id_order;
     protected String order_datetime;
 
-    public Order(int id ,String menu_name,String type,int menu_price, String order_datetime)
+    public Order(String menu_name,String type,int menu_price,int id_order,String order_datetime)
     {
-        super(id,menu_name,type,menu_price);
+        super(menu_name,type,menu_price);
         this.order_datetime = order_datetime;
+        this.id_order = id_order;
     }
 
 
    public String getOrder(){
-        return id+" "+order_datetime;
+        return id_order+" "+order_datetime;
     }
 
     public String showOrder()
