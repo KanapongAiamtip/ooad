@@ -12,6 +12,6 @@ public class Menu {
 
    public String getMenuname()
    {
-       return menu_name+" "+type+" "+menu_price;
+       return menu_name+" "+type+" "+menu_price+" bath";
    }
 }

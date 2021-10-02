@@ -14,7 +14,7 @@ public class Bill  extends Order {
 
 
     public String getBill() { 
-        return id_Bill+ " " + bill_datatime +" "+menu_name+ " " + bill_price;        
+        return "Bill id Number"+ id_Bill+" Time " + bill_datatime +" "+menu_name+ " " + bill_price+" bath";        
     }
 
     
